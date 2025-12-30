@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Gói dịch vụ</title>
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    padding:40px;
+}
+
+/* CARD */
+.pricing-card{
+    width:320px;
+    background:#fff;
+    border:2px solid #ddd;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+/* HEADER */
+.pricing-header{
+    background:#1e88d8;
+    color:#fff;
+    text-align:center;
+    padding:20px 10px;
+}
+
+.pricing-header h3{
+    margin:0;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.pricing-header .line{
+    margin:8px auto;
+    width:60%;
+    border-bottom:2px dashed rgba(255,255,255,0.6);
+}
+
+.pricing-header p{
+    margin:8px 0 0;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* BODY */
+.pricing-body{
+    padding:15px 20px;
+}
+
+.pricing-body ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.pricing-body li{
+    display:flex;
+    align-items:center;
+    padding:10px 0;
+    border-bottom:1px solid #eee;
+    font-size:16px;
+    color:#333;
+}
+
+.pricing-body li:last-child{
+    border-bottom:none;
+}
+
+/* ICON */
+.icon{
+    width:24px;
+    text-align:center;
+    margin-right:10px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.icon.check{
+    color:#1e88d8;
+}
+
+.icon.cross{
+    color:#333;
+}
+
+/* RESPONSIVE */
+@media(max-width:480px){
+    .pricing-card{
+        width:100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="pricing-card">
+    <div class="pricing-header">
+        <h3>GÓI CƠ BẢN</h3>
+        <div class="line"></div>
+        <p>(70.000/1 phút đầu tiên, 35.000/phút tiếp theo)</p>
+    </div>
+
+    <div class="pricing-body">
+        <ul>
+            <li><span class="icon check">✓</span>Hỗ trợ lên ý tưởng</li>
+            <li><span class="icon check">✓</span>Chuyển cảnh cơ bản</li>
+            <li><span class="icon check">✓</span>Hiệu ứng âm thanh</li>
+            <li><span class="icon check">✓</span>Xử lý âm thanh giọng nói cơ bản</li>
+            <li><span class="icon check">✓</span>Hiệu ứng hình ảnh cơ bản</li>
+            <li><span class="icon check">✓</span>Text minh họa</li>
+            <li><span class="icon check">✓</span>Sticker minh họa</li>
+            <li><span class="icon cross">✕</span>Chỉnh màu</li>
+            <li><span class="icon cross">✕</span>Làm đẹp da</li>
+            <li><span class="icon cross">✕</span>Phụ đề</li>
+            <li><span class="icon cross">✕</span>Tách nền, thay nền</li>
+            <li><span class="icon cross">✕</span>Chuyển cảnh, hiệu ứng theo beat nhạc</li>
+            <li><span class="icon check">✓</span>Hỗ trợ độ phân giải Full HD</li>
+            <li><span class="icon check">✓</span>Sửa 3 lần</li>
+        </ul>
+    </div>
+</div>
+
+<div class="pricing-card">
+    <div class="pricing-header">
+        <h3>GÓI TIÊU CHUẨN</h3>
+        <div class="line"></div>
+        <p>(100.000/1 phút đầu tiên, 50.000/phút tiếp theo)</p>
+    </div>
+
+    <div class="pricing-body">
+        <ul>
+            <li><span class="icon check">✓</span>Bao gồm tất cả ở gói cơ bản</li>
+            <li><span class="icon check">✓</span>Chuyển cảnh nâng cao</li>
+            <li><span class="icon check">✓</span>Xử lý âm thanh giọng nói nâng cao</li>
+            <li><span class="icon check">✓</span>Hiệu ứng hình ảnh nâng cao</li>
+            <li><span class="icon check">✓</span>Chỉnh màu cơ bản</li>
+            <li><span class="icon check">✓</span>Làm đẹp da cơ bản</li>
+            <li><span class="icon check">✓</span>Phụ đề một ngôn ngữ</li>
+            <li><span class="icon check">✓</span>Chuyển cảnh, hiệu ứng theo beat nhạc</li>
+            <li><span class="icon check">✓</span>Tối ưu bố cục khung hình cho YouTube / TikTok / Reels</li>
+            <li><span class="icon cross">✕</span>Tách nền, thay nền</li>
+            <li><span class="icon check">✓</span>Hỗ trợ độ phân giải lên tới 2K</li>
+            <li><span class="icon check">✓</span>Sửa 4 lần</li>
+        </ul>
+    </div>
+</div>
+
+<div class="pricing-card">
+    <div class="pricing-header">
+        <h3>GÓI NÂNG CAO</h3>
+        <div class="line"></div>
+        <p>(150.000/1 phút đầu tiên, 75.000/phút tiếp theo)</p>
+    </div>
+
+    <div class="pricing-body">
+        <ul>
+            <li><span class="icon check">✓</span>Bao gồm tất cả ở gói tiêu chuẩn</li>
+            <li><span class="icon check">✓</span>Chỉnh màu nâng cao, theo tone màu mẫu</li>
+            <li><span class="icon check">✓</span>Color grading theo phong cách phim / mood video</li>
+            <li><span class="icon check">✓</span>Làm đẹp da nâng cao</li>
+            <li><span class="icon check">✓</span>Tách nền, thay nền</li>
+            <li><span class="icon check">✓</span>Phụ đề song ngữ (Anh – Việt hoặc theo yêu cầu)</li>
+            <li><span class="icon check">✓</span>Hỗ trợ độ phân giải lên tới 4K</li>
+            <li><span class="icon check">✓</span>Sửa 5 lần</li>
+        </ul>
+    </div>
+</div>
+
+<div class="pricing-card">
+    <div class="pricing-header">
+        <h3>GÓI VOICE AI</h3>
+        <div class="line"></div>
+        <p>(200.000/1 phút đầu tiên, 100.000/phút tiếp theo)</p>
+    </div>
+
+    <div class="pricing-body">
+        <ul>
+            <li><span class="icon check">✓</span>Dành cho video kể chuyện, chia sẻ kiến thức, review phim,...</li>
+            <li><span class="icon check">✓</span>Bao gồm tất cả từ gói nâng cao</li>
+            <li><span class="icon check">✓</span>Tạo giọng nói bằng AI với nhiều cảm xúc, giới tính, độ tuổi,...</li>
+            <li><span class="icon check">✓</span>Nhân bản giọng nói từ giọng người hoặc AI khác</li>
+        </ul>
+    </div>
+</div>
+
+<div class="pricing-card">
+    <div class="pricing-header">
+        <h3>GÓI NHẠC BẢN QUYỀN</h3>
+        <div class="line"></div>
+        <p>(200.000/1 phút đầu tiên, 100.000/phút tiếp theo)</p>
+    </div>
+
+    <div class="pricing-body">
+        <ul>
+            <li><span class="icon check">✓</span>Dành cho Youtuber, Tiktoker, Facebooker.</li>
+            <li><span class="icon check">✓</span>Bao gồm tất cả từ gói nâng cao</li>
+            <li><span class="icon check">✓</span>Sử dụng nhạc bản quyền trong video từ các trang uy tín như: Epidemic Sound, Artlist,...</li>
+            <li><span class="icon check">✓</span>Nhạc có bản quyền sử dụng cho nền tảng mạng xã hội (YouTube, Facebook, TikTok)</li>
+            <li><span class="icon cross">✕</span>Không bao gồm bản quyền phát sóng TV / quảng cáo TVC</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
